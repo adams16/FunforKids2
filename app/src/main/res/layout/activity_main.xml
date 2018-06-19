@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/main"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/alphabets"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="26dp"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/alphabets"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="64dp" />
+
+    <ImageButton
+        android:id="@+id/numbers"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/alphabets"
+        android:layout_marginEnd="52dp"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/numbers"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="52dp" />
+
+    <ImageButton
+        android:id="@+id/animals"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/numbers"
+        android:layout_alignTop="@+id/fruits"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/animals"
+        android:layout_alignLeft="@+id/numbers" />
+
+    <ImageButton
+        android:id="@+id/fruits"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/alphabets"
+        android:layout_marginTop="141dp"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/fruits"
+        android:layout_alignLeft="@+id/alphabets" />
+
+    <ImageButton
+        android:id="@+id/colors"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/colors" />
+
+    <ImageButton
+        android:id="@+id/flowers"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/numbers"
+        android:layout_alignTop="@+id/birds"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/flowers"
+        android:layout_alignLeft="@+id/numbers" />
+
+    <ImageButton
+        android:id="@+id/birds"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/alphabets"
+        android:layout_marginBottom="152dp"
+        android:background="#ffffff"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/birds"
+        android:layout_alignLeft="@+id/alphabets" />
+
+
+
+
+
+
+</RelativeLayout>
